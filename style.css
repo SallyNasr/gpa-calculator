@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 20px;
+    --background-color: #D9F7FA;
+    font-family: 'Montserrat', sans-serif;
+    font-display: swap;
+    --line-height: 90px;
+    --color-font: #0D2451;
+}
+
+a {
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;777776t
+    color: var(--color-fonts);
+}
+
+.main-nav-links ul li {
+    display: inline;
+    margin: 20px;
+}
+
+.main-nav-logo a img {
+    width: var(--line-height);
+    height: var(--line-height);
+    border-radius: 50%;
+}
+
+.main-nav-logo a,
+.main-nav-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 32px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 32px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 32px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 20px 20px 0px 0px;
+    background-color: var(--background-color);
+    padding: 0px 20px;
+}
+
+/*:root {
+    --blue: #1e90ff;
+}*/
+
+
+.main-nav-links ul li a {
+    text-decoration: none;
+
+}
+
+.main-nav-links ul {
+    line-height: var(--line-height);
+    margin: 0%;
+}
+
+.main-page {
+    border-radius: 50px;
+
+}
+
+.main-nav-logo a span {
+    margin: 20px;
+    font-weight: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: var(--background-color);
+
+}
+
+.header>div {
+    width: 40%;
+}
+
+.gpa-container {
+
+    box-shadow: 0 0.25em 1em rgba(7, 29, 63, 0.125);
+    border-radius: 10px;
+    width: 75%;
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -38px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+main {
+    position: relative;
+}
+
+.gpa-container>div {
+    display: flex;
+    justify-content: center;
+}
+
+.gpa-container>div>input {
+
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+.gpa-container>div>select {
+    font-size: 20px;
+    border-left: none;
+    border-right: none;
+}
